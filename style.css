@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.navbar-nav{
+padding-left: 30%;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show> .nav-link.active{
+    color: white;
+    float: left;
+    display: flex;
+    padding-left: 20px;
+    padding: 12px;
+}
+.navbar-nav{
+    padding-right: 150px;
+}
+.logo-img{
+    border-radius: 30px;
+}
+.navbar-brand{
+    padding-left: 1%;
+}
+.register{
+    padding-left: 20%;
+}
+button{
+    border-radius: 20px;
+    padding-left: 20px;
+    padding: 12px;
+    background-color:darkslateblue;
+    color: white; 
+}
+.hero-section{
+    background-color: azure;
+    padding: 20px;
+    
+}
+.d-flex{
+    display: flex;
+    padding-left: 20px;
+    color: white;
+}
+.card{
+    width: 100%;  
+    background-color: rgb(14, 36, 77);
+    color: white;
+}
+.col{
+    text-align: left;
+}
+.list-container{
+    color: white;
+    background-color:rgb(14, 36, 77);
+    border: px solid;
+    border-radius: 100px;
+    box-shadow: 0 0 10px;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+.list-container-2{
+    color: white;
+    background-color:rgb(14, 36, 77);
+    border: px solid;
+    border-radius: 100px;
+    box-shadow: 0 0 10px;
+    padding: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 45px;
+}
+.list-container-3{
+    color: white;
+    background-color:rgb(14, 36, 77);
+    border: px solid;
+    border-radius: 100px;
+    box-shadow: 0 0 10px;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.list-container-4{
+    color: white;
+    background-color:rgb(14, 36, 77);
+    border: px solid;
+    border-radius: 100px;
+    box-shadow: 0 0 10px;
+    padding: 20px;
+    padding-bottom: 40px;
+    }
+
+
+
+.container-form{
+    text-align: left;
+    width: 500px;
+    padding: 20px;
+    background-color:rgb(14, 36, 77);
+    color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0, 0,o.1);
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"]
+input[type="email"]
+input[type="password"]{
+    width: 300px;
+    height: 10%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    }
+input[type="submit"]{
+    width: 30%;
+    height: 30px;
+    background-color: darkslateblue;
+    color: #fff;
+    padding: 1px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #350dad;
+}
+
+body{
+
+    background-color: lightgray;
+}
+h4{
+    padding: 40px;
+    text-align: left;
+}
+.form-container{
+    color: white;
+    text-align: left;
+    width: 520px;
+    margin: 50px;
+    padding: 20px;
+    background-color:rgb(243, 246, 250);
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0, 0,o.1);
+}
+.footer-container{
+
+    padding: 50px;
+    color: white;
+    height: 100%;
+
+}
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+footer{
+    width: 100%}  
+  
+
+
+    
+    

@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Shrikhand&family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+.indicator{
+    text-align: left;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    background:linear-gradient(0deg, rgba(18, 74, 205, 0.3), rgba(49, 21, 234, 0.3)), url(images/Yellow\ and\ Gold\ Illustrative\ Real\ Estate\ Banner.png);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+    color: white;
+    height: 450px;
+  }
+  .site-title{
+    padding-right: 60px;
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 20px;
+    font-size: 60px;
+  }
+  .hammersmith-one-regular {
+  
+    padding: 25px;
+    text-align: left;
+    padding-left: 900px;
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+  }
+  
+  .staatliches-regular {
+    font-size: 50px;
+    padding-left: 550px;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.navbar-nav{
+    padding-left: 30%;
+    }
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show> .nav-link.active{
+        color: white;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding: 12px;
+    }
+    .navbar-nav{
+        padding-right: 150px;
+    }
+    .slide{
+        text-align: center;
+    }
+    .logo-img{
+        border-radius: 30px;
+    }
+    .navbar-brand{
+        padding-left: 1%;
+    }
+    .register{
+        padding-left: 20%;
+    }
+    button{
+        border-radius: 20px;
+        padding-left: 20px;
+        padding: 12px;
+        
+        background-color:darkslateblue;
+        color: white}
+        .card{
+        
+            width: 100%;  
+            background-color: rgba(23, 9, 114, 0.922);
+            color: white;
+        }
+        .head{
+            font-family: "Shrikhand", serif;
+            font-weight: 300;
+            color: black;
+            text-align: center;
+        }
+        .col{
+            padding: 20px;
+            text-align: left;
+        }
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        .list-container{
+            color: white;
+            background-color:rgba(23, 9, 114, 0.922);
+            border: px solid;
+            border-radius: 100px;
+            box-shadow: 0 0 10px;
+            padding: 20px;
+            padding-bottom: 40px;
+        }
+        .list-container-2{
+            color: white;
+            background-color:rgba(23, 9, 114, 0.922);
+            border: px solid;
+            border-radius: 100px;
+            box-shadow: 0 0 10px;
+            padding: 20px;
+            padding-bottom: 40px;
+            margin-bottom: 45px;
+        }
+        .list-container-3{
+            color: white;
+            background-color:rgba(23, 9, 114, 0.922);
+            border: px solid;
+            border-radius: 100px;
+            box-shadow: 0 0 10px;
+            padding: 20px;
+            padding-bottom: 40px;
+        }
+        
+        .list-container-4{
+            color: white;
+            background-color:rgba(23, 9, 114, 0.922);
+            border: px solid;
+            border-radius: 100px;
+            box-shadow: 0 0 10px;
+            padding: 20px;
+            padding-bottom: 40px;
+            }
+            .form-container{
+                color: white;
+                text-align: left;
+                width: 520px;
+                margin: 50px auto;
+                padding: 20px;
+                background-color:rgba(23, 9, 114, 0.922);
+                border: 1px solid #ddd;
+                box-shadow: 0 0 10px rgba(0,0, 0,o.1);
+            }
+
+            .container-form{
+                text-align: left;
+                width: 500px;
+                padding: 20px;
+                background-color:rgba(23, 9, 114, 0.922);
+                color: white;
+                border: 1px solid #ddd;
+                box-shadow: 0 0 10px rgba(0,0, 0,o.1);
+            }
+            
+
+input[type="text"]
+input[type="email"]
+input[type="password"]{
+    width: 300px;
+    height: 10%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    }
+input[type="submit"]{
+    width: 30%;
+    height: 30px;
+    background-color: darkslateblue;
+    color: #fff;
+    padding: 1px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #350dad;
+}
+
+body{
+
+    background-color: lightgray;
+}
+h4{
+    padding: 20px;
+    text-align: left;
+}
+
+.footer-container{
+
+    padding: 50px;
+    color: white;
+    height: 100%;
+
+}
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+    /* Header adjustments for tablets */
+    header {
+        height: 350px;
+        padding: 25px;
+    }
+
+    .site-title {
+        font-size: 50px; /* Adjust font size for tablets */
+    }
+
+    .navbar-nav {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .form-container,
+    .container-form {
+        width: 80%;
+        padding: 20px;
+    }
+
+    /* Adjust the card layout */
+    .card {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .footer-container {
+        padding: 40px;
+        text-align: center;
+    }
+
+    .carousel-inner img {
+        height: 400px; /* Slightly larger images */
+    }
+}
+
+@media (max-width: 768px) {
+    /* Adjust header */
+    header {
+        height: 300px; /* Make the header smaller on mobile */
+        padding: 20px; /* Less padding on smaller screens */
+    }
+
+    .site-title {
+        font-size: 36px; /* Smaller title font */
+        padding-right: 0; /* Remove right padding */
+    }
+
+    .navbar-nav {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    /* Adjust navbar links */
+    .navbar-nav .nav-link {
+        padding: 8px; /* Smaller padding on navbar links */
+        font-size: 16px; /* Smaller font size */
+    }
+
+    /* Adjust form and container forms */
+    .form-container,
+    .container-form {
+        width: 90%; /* Full-width for form containers */
+        padding: 15px;
+    }
+
+    /* Input fields */
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        width: 100%; /* Make inputs full width on small screens */
+    }
+
+    /* Adjust card content */
+    .card {
+        width: 100%; /* Ensure cards fill the width of the screen */
+        padding: 20px;
+    }
+
+    /* Footer */
+    .footer-container {
+        padding: 30px;
+        text-align: center; /* Center text in footer on mobile */
+    }
+
+    /* Adjust images */
+    .carousel-inner img {
+        height: 300px; /* Smaller images for mobile */
+    }
+}
+

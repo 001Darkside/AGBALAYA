@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+.navbar-nav{
+    padding-left: 30%;
+    }
+    
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show> .nav-link.active{
+        color: white;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding: 12px;
+    }
+    .navbar-nav{
+        padding-right: 150px;
+    }
+    .slide{
+        text-align: center;
+    }
+    .logo-img{
+        border-radius: 30px;
+    }
+    .navbar-brand{
+        padding-left: 1%;
+    }
+    .register{
+        padding-left: 20%;
+    }
+    button{
+        border-radius: 20px;
+        padding-left: 20px;
+        padding: 12px;
+        background-color:darkslateblue;
+        color: white; 
+    }
+    
+    .form-container{
+        color: white;
+        text-align: left;
+        width: 520px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color:rgba(23, 9, 114, 0.922);
+        border: 1px solid #ddd;
+        box-shadow: 0 0 10px rgba(0,0, 0,o.1);
+    }
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"]
+input[type="email"]
+input[type="password"]{
+    width: 100%;
+    height: 10%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    }
+input[type="submit"]{
+    width: 30%;
+    height: 30px;
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 1px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #350dad;
+}
+
+body{
+    counter-reset: section;
+}
+button{
+    border-radius: 20px;
+    padding-left: 20px;
+    padding: 12px;
+    background-color:darkslateblue;
+    color: white; 
+}
+header{
+    background:linear-gradient(0deg, rgba(18, 74, 205, 0.3), rgba(49, 21, 234, 0.3)), url(images/Orange\ And\ Blue\ Modern\ Professional\ Construction\ Banner\ Design\ \(9\).png);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+    color: white;
+    height: 450px;
+  }
+  .slide-title{
+    margin-top: 250px;
+    padding-right: 600px;
+    font-family: "Shrikhand", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 80px;
+  
+
+  }
+  .container-form{
+    color: white;
+    text-align: left;
+    width: 520px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:rgba(23, 9, 114, 0.922);
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0, 0,o.1);
+}
+.col-md-6{
+    padding: 50px;
+   
+}
+.footer-container{
+width: 100%;
+    padding: 50px;
+    color: white;
+    height: 100%;
+
+}
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .show> .nav-link.active {
+        padding-left: 10px; /* reduce padding for small screens */
+        padding: 10px; /* adjust padding */
+        font-size: 14px; /* make the font size smaller */
+    }
+
+    .navbar-brand {
+        padding-left: 5%;
+    }
+    
+    .slide-title {
+        font-size: 50px; /* adjust font size for smaller screens */
+        padding-right: 0; /* remove extra padding */
+    }
+
+    .form-container {
+        width: 90%; /* make the form container width responsive */
+        margin: 20px auto; /* reduce margin */
+    }
+
+    .register {
+        padding-left: 10%; /* adjust the padding */
+    }
+
+    .col-md-6 {
+        padding: 20px; /* reduce padding in columns */
+    }
+    
+    button, input[type="submit"] {
+        width: 80%; /* make buttons and inputs take up more space */
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px; /* adjust heading size */
+    }
+}
+
+/* For tablets (between 768px and 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .navbar-nav {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .slide-title {
+        font-size: 60px; /* medium font size for tablets */
+    }
+
+    .form-container {
+        width: 70%; /* adjust width for tablets */
+        margin: 30px auto;
+    }
+
+    button, input[type="submit"] {
+        width: 60%; /* increase width slightly for larger screens */
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
+
+/* For large screens (1024px and above) */
+@media screen and (min-width: 1024px) {
+    .navbar-nav {
+        padding-left: 30%; /* larger padding for wide screens */
+        padding-right: 30%;
+    }
+
+    .slide-title {
+        font-size: 80px; /* large font size for desktops */
+    }
+
+    .form-container {
+        width: 520px; /* keep the same width for larger screens */
+        margin: 50px auto;
+    }
+
+    button, input[type="submit"] {
+        width: 30%; /* standard width for buttons */
+    }
+
+    h1 {
+        font-size: 36px; /* default heading size */
+    }
+}
