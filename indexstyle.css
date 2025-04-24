@@ -299,5 +299,27 @@ h4{
     .carousel-inner img {
         height: 300px; /* Smaller images for mobile */
     }
-}
+    
+       
+    
+    .staatliches-regular {
+        font-size: 50px;
+        padding-left: 550px;
+        font-family: "Staatliches", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .site-title{
+        padding-right: 60px;
+        font-family: "Shrikhand", serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-top: 20px;
+        font-size: 60px;
+      }
+    }
+      
+
+
+
 
